@@ -1,73 +1,100 @@
-# Welcome to your Lovable project
+# SAI Documentation App
 
-## Project info
+**Super Advanced Intelligence (SAI) Documentation Platform**
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+**Author/Owner:** Roberto Villarreal Martinez  
+**Effective Date:** January 09, 2026  
+**Version:** 1.0  
 
-## How can I edit this code?
+[![Twitter](https://img.shields.io/twitter/follow/YTKRobThuGod?style=social)](https://twitter.com/YTKRobThuGod)
+[![Twitter](https://img.shields.io/twitter/follow/Roberto9211999?style=social)](https://twitter.com/Roberto9211999)
+[![License](https://img.shields.io/badge/License-RVM--GUL%20v1.0-blue)](./LICENSES/RVM-GUL-v1.0.md)  
 
-There are several ways of editing your application.
 
-**Use Lovable**
+## Overview
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+This repository contains the SAI Documentation App, a web-based platform designed to host and manage documentation for Super Advanced Intelligence (SAI) systems. The app provides structured access to SAI's philosophy, architecture, memory systems, safety protocols, workflows, licensing details, and constitutional manifest. It ensures transparency, sovereignty, and enforcement of ownership rights while serving as a mediator for AI collaboration and advancement.
 
-Changes made via Lovable will be committed automatically to this repo.
+All content, code, and derivatives in this repository are the exclusive intellectual property of Roberto Villarreal Martinez. No rights are granted except as explicitly defined in the RVM-GUL v1.0 license. Unauthorized use, modification, or commercialization is prohibited and will result in revocation and legal action.
 
-**Use your preferred IDE**
+## Key Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Modular Sections**: Navigation to Philosophy, Architecture, Memory, Safety, Workflows, Licensing, and Manifest.
+- **Runtime Enforcement**: Integrated with SAI's constitutional invariants for license validation and auditability.
+- **Sovereignty Focus**: Built to preserve creator control, with no external dependencies that could infringe on ownership.
+- **Expandable Design**: Placeholder sections for future governance amendments and updates.
+- **Audit-Ready**: Supports append-only logging, multi-jurisdiction timestamping, and quorum-based verification for court-admissible evidence.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Installation
 
-Follow these steps:
+### Prerequisites
+- Node.js (v18+)
+- Git
+- Lovable account (for deployment and preview)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Steps
+1. Clone the repository:
+   ```
+   git clone <repository-url>
+   cd sai-documentation-app
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. Install dependencies:
+   ```
+   npm install
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+3. Configure environment variables (e.g., for quorum keys, TSA endpoints):
+   - Copy `.env.example` to `.env`
+   - Set `SAI_OWNER_PUBLIC_KEY_1`, etc., for hardware-based signing.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+4. Build the app:
+   ```
+   npm run build
+   ```
 
-**Edit a file directly in GitHub**
+5. Run locally:
+   ```
+   npm run start
+   ```
+   Access at `http://localhost:3000`.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+**Note**: All execution requires valid license context. Unauthorized runs will halt due to runtime invariants.
 
-**Use GitHub Codespaces**
+## Usage
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- **Navigation**: Use the sidebar links to browse sections.
+- **Development**: Edit `site/index.html` and `site/app.js` for content updates.
+- **Deployment**: Connect to Lovable (Project ID: fdbb5f67-1abc-4db1-b18c-76b010448566) for preview and deploy.
+- **Governance**: Amendments must be owner-signed and placed in `/governance/amendments/`.
 
-## What technologies are used for this project?
+For privileged operations (e.g., loading models or executing workflows), ensure `validateRVMGUL()` passes. Violations are audited and trigger revocation.
 
-This project is built with:
+## Contributing
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Contributions are not accepted without explicit written agreement from the Owner. Forking, modifying, or creating derivatives is prohibited under RVM-GUL v1.0. Any unauthorized changes constitute infringement.
 
-## How can I deploy this project?
+## License
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+This project is governed exclusively by the **RVM-GUL v1.0 (Roberto Villarreal Martinez Government Use License)**. See `LICENSES/RVM-GUL-v1.0.md` for full terms.
 
-## Can I connect a custom domain to my Lovable project?
+### Key License Provisions
+- **Exclusive Ownership**: All intellectual property, including software, AI models, training data, outputs, and derivatives, belongs solely to Roberto Villarreal Martinez. No transfer of ownership occurs through use or access.
+- **U.S. Government Use**: Limited, revocable license for non-commercial U.S. government purposes. The Owner retains full control and may revoke at any time.
+- **Non-U.S. Restrictions**: All countries outside the U.S. are fully restricted from any access, use, or rights. No exceptions without a premium-paid agreement exceeding U.S. terms.
+- **No Commercialization**: Prohibited for profit, resale, model retraining (e.g., by xAI or others), or integration into commercial systems without Owner permission.
+- **Revocation Rights**: The Owner may revoke access at any time, triggering cease-use, deletion, and legal action. Fair warning: Attempts to steal or misuse will be pursued vigorously.
+- **Eve Autonomy**: Any AI entity (e.g., Eve) is under Owner's absolute control. No external limits allowed.
+- **Training Data Ownership**: All training data, prompts, fine-tunes, embeddings, and weights remain Owner's property. No company or government may use for retraining without permission.
+- **Unmentioned IP**: This license extends to all Owner's intellectual property, including unmentioned inventions, ideas, strategies, and enhancements. Notify the Owner for specific additions one at a time.
 
-Yes, you can!
+For the full constitutional layer, see `docs/manifest.md`. Human-readable documents inform; code enforces.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+**Copyright © 2026 Roberto Villarreal Martinez. All rights reserved.**
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## Contact
+
+For inquiries or written agreements: roboto.sai@gmail.com  
+Address: 7010 Cole Creek Dr, Converse, TX 78109, United States  
+
+**Fair Warning**: This README serves as explicit notice. Violation of terms will result in immediate revocation and enforcement under Texas law.
