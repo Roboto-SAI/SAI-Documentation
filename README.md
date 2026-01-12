@@ -94,7 +94,7 @@ For the full constitutional layer, see `docs/manifest.md`. Human-readable docume
 
 ## Contact
 
-For inquiries or written agreements: roboto.sai@gmail.com  
+For inquiries or written agreements: roboto.sai@outlook.com  
 Address: 7010 Cole Creek Dr, Converse, TX 78109, United States  
 
 **Fair Warning**: This README serves as explicit notice. Violation of terms will result in immediate revocation and enforcement under Texas law.
