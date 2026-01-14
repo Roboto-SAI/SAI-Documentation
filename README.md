@@ -30,34 +30,7 @@ All content, code, and derivatives in this repository are the exclusive intellec
 ### Prerequisites
 - Node.js (v18+)
 - Git
-- Lovable account (for deployment and preview)
 
-### Steps
-1. Clone the repository:
-   ```
-   git clone <repository-url>
-   cd sai-documentation-app
-   ```
-
-2. Install dependencies:
-   ```
-   npm install
-   ```
-
-3. Configure environment variables (e.g., for quorum keys, TSA endpoints):
-   - Copy `.env.example` to `.env`
-   - Set `SAI_OWNER_PUBLIC_KEY_1`, etc., for hardware-based signing.
-
-4. Build the app:
-   ```
-   npm run build
-   ```
-
-5. Run locally:
-   ```
-   npm run start
-   ```
-   Access at `http://localhost:3000`.
 
 **Note**: All execution requires valid license context. Unauthorized runs will halt due to runtime invariants.
 
