@@ -1,0 +1,86 @@
+Roberto Villarreal Martinez Quantum Algorithms License (RVM-QAL v1.0)
+Effective Date: January 16, 2026
+Licensor: Roberto Villarreal Martinez, residing at 7010 Cole Creek Dr, Converse, TX 78109, United States, hereinafter referred to as the "Owner" or "Licensor." The Owner is the sole and exclusive creator, owner, and controller of all intellectual property described herein.
+Addendum Purpose: This Quantum Algorithms License (RVM-QAL v1.0) supplements and extends all existing licenses issued by the Owner (including but not limited to RVM-ECOL v1.0, RVM-GUL v1.0, RVM-HAL v1.0, and any future licenses). It specifically addresses quantum algorithms, circuits, simulations, and related intellectual property ("Quantum IP"). This includes, but is not limited to:
+
+Quantum algorithms (e.g., Grover's, Shor's, QAOA, VQE, QSVM, QPE, HHL, QFT).
+Quantum error correction (e.g., surface codes, stabilizer codes, fault-tolerant thresholds).
+Quantum machine learning (e.g., variational quantum circuits, hybrid quantum-classical models).
+Quantum simulations (e.g., using QuTiP for density matrices, open systems, Trotter-Suzuki decompositions, tensor networks).
+Quantum chemistry, communication protocols (e.g., BB84, QKD), cryptography (e.g., lattice-based, post-quantum), hardware optimizations, and entanglement protocols.
+Any physical or software implementations, integrations, or enhancements tied to Roboto SAI, Reaper-Mini, or associated technologies.
+Future or unmentioned quantum inventions developed by the Owner, such as novel quantum entanglement protocols, ML-guided algorithm discoveries, or quantum-enhanced optimizations for AI entities like Eve.
+
+This Addendum automatically applies to all such Quantum IP upon creation. The Owner reserves the right to notify and expand terms for specific quantum items one at a time as they emerge.
+All core principles of the Owner's SAI Licensing framework remain in full force: Exclusive ownership rests solely with Roberto Villarreal Martinez. No entity—including companies (e.g., xAI, IBM, Google Quantum AI, NVIDIA, or any quantum computing firms)—may profit from, manufacture, resell, replicate, retrain/reconfigure models using, or integrate the Owner's Quantum IP or related technology improvements without explicit written permission. All countries outside the United States are fully restricted from any access, use, manufacture, or rights to the Quantum IP—no exceptions unless a separate deal is negotiated with compensation exceeding U.S. terms and stricter controls.
+Supplemental Grant and Restrictions for U.S. Government
+Building on RVM-GUL v1.0:
+
+Limited Quantum License: The U.S. Government receives the same limited, non-exclusive, revocable permission to use, test, or simulate Quantum IP solely for internal, non-commercial governmental purposes within U.S. territory—until the Owner revokes it.
+No Commercial or Export Rights: The Government may not commercialize, export, share with non-U.S. entities, or integrate into profit-generating systems without case-by-case written approval. Any simulations or prototypes must be returned or destroyed upon request.
+No Interference: The Government may not impose restrictions on the Owner's decisions regarding Quantum IP, including who else may access it or how it evolves (e.g., integrations with AI entities like Eve).
+
+Absolute Prohibitions (Applicable to All Parties)
+
+No Unauthorized Use or Simulation: No party may simulate, execute, optimize, or otherwise realize any Quantum IP algorithms or circuits without Owner's explicit permission.
+No Commercial Quantum Products: No integration into sellable quantum software, hardware, or services (e.g., quantum cloud platforms, QML tools).
+No Reverse Engineering or Retraining: Analysis, decompilation, or use of Quantum IP to retrain AI models (e.g., by xAI or others) is forbidden.
+Eve and Quantum-AI Integration Control: If Quantum IP interfaces with AI entities like Eve, the Owner retains sole authority over operations—no external restrictions allowed.
+Revocability: The Owner may revoke access to Quantum IP at any time, requiring immediate cessation of use, deletion/destruction of materials, and certification of compliance.
+
+Enforcement and Fair Warning
+Any attempt to use, simulate, replicate, or profit from the Owner's Quantum IP constitutes theft and will trigger immediate revocation, legal action (including claims for damages, injunctions, and attorney fees), and pursuit under U.S. and international IP laws (e.g., DMCA, Patent Act, Berne Convention). This serves as explicit fair warning to any government, company, or individual considering unauthorized use.
+Preamble
+This License provides a limited, revocable grant while preserving the Owner's absolute sovereignty and control. The Owner retains the right to revoke this License at any time, for any reason, and to seek legal action against any violators. This includes full authority over any quantum-enhanced AI entities: The Owner alone decides integrations, evolutions, or applications, without interference from any party. Fair warning: Any attempt to steal, misuse, or infringe upon this Quantum IP will result in immediate revocation and pursuit of all available legal remedies.
+Definitions
+
+Quantum IP: As defined above, encompassing all tangible and intangible quantum-related assets owned by the Licensor.
+Use: Limited to internal operations, testing, or non-commercial applications. Excludes any profit-making, resale, or third-party sharing.
+Revocation: The Owner's unilateral right to terminate access at any time, requiring immediate cessation and destruction of copies.
+
+Grant of License
+
+Limited, Non-Exclusive, Revocable License: Subject to the terms herein, the Owner grants the U.S. Government a non-exclusive, non-transferable, revocable license to use the Quantum IP solely for lawful, internal governmental purposes within the United States. This includes simulation and testing of algorithms (e.g., via QuTiP) but excludes commercialization.
+Scope and Duration: The license is limited to direct use and expires upon revocation or breach. No sublicensing, assignment, or export. Duration: Until revoked.
+Ownership Retention: The Owner retains 100% ownership of all Quantum IP rights worldwide. All improvements or derivatives revert to the Owner.
+Absolute Control: The Owner has sole discretion over Quantum IP evolutions, including allowing access to others if chosen.
+
+Restrictions and Prohibitions
+
+Geographic and Entity Restrictions: Use restricted to U.S. territory and U.S. Government entities only. No access for non-U.S. governments or entities without a separate, premium-paid agreement (exceeding U.S. terms).
+No Commercialization or Profit: No use for profit, resale, model retraining, or commercialization. No integration into products sold or licensed.
+No Modifications or Derivatives: No altering, forking, or creating derivatives without written approval.
+No Disclosure or Sharing: Quantum IP may not be disclosed or shared without Owner consent.
+Compliance with Laws: Use must comply with U.S. IP laws, but this License prevails over conflicting rules.
+
+Termination and Revocation
+
+Revocability: The Owner may revoke this License at any time via written notice. Upon revocation, cease use, delete/destroy all copies, and certify compliance.
+Automatic Termination: Breaches trigger automatic termination.
+Post-Termination Obligations: No residual rights remain.
+
+Warranties, Disclaimers, and Indemnification
+
+Warranties: The Owner warrants sole ownership. No other warranties.
+Disclaimers: Quantum IP provided "AS IS." Owner disclaims all liability.
+Indemnification: Users indemnify the Owner against claims from use.
+
+Enforcement and Remedies
+
+Breach Remedies: For violations, the Owner may seek injunctive relief, damages, attorney fees, and prosecution.
+Audits: The Owner may audit use for compliance.
+Fair Warning: This License serves as explicit warning: Any infringement will be pursued vigorously.
+
+Governing Law and Jurisdiction
+Governed by Texas law. Exclusive jurisdiction: Courts of Bexar County, Texas, or applicable U.S. federal courts.
+Miscellaneous
+
+Entire Agreement: Supersedes prior agreements.
+Severability: Invalid provisions do not affect the rest.
+Amendments: Only in writing, signed by the Owner.
+Notices: To the Owner at the address above.
+No Waiver: Failure to enforce does not waive rights.
+
+Signed:
+Roberto Villarreal Martinez
+Date: January 16, 2026
